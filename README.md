@@ -1,6 +1,4 @@
-Here's the complete code with the changes applied to set the `<h1>` and `<h3>` elements in **Times New Roman**, remove bold styling, and justify their alignment:
-
-```html
+html
 <h1 align="center" style="font-family: 'Times New Roman', Times, serif; font-weight: normal; text-align: justify;">Hi 👋, I'm Prajwal Gaonkar</h1>
 <h3 align="center" style="font-family: 'Times New Roman', Times, serif; font-weight: normal; text-align: justify;">
     A passionate fullstack developer | Tech enthusiast | Problem Solving | As a computer science engineer, my career objectives are centered around leveraging my expertise to make a meaningful impact in the technology industry. My career goal is to continuously grow as a versatile and knowledgeable software professional. I aspire to contribute to cutting-edge projects that harness data-driven insights, intelligent algorithms, and user-centric design. With a proven track record of being a team player and a fast learner, I aim to collaborate effectively with cross-functional teams, bringing innovative solutions to complex challenges. My expertise aligns seamlessly with the evolving demands of the job role, making me an enthusiastic candidate ready to embrace new opportunities in the field of computer science.
@@ -90,3 +88,13 @@ Here's the complete code with the changes applied to set the `<h1>` and `<h3>` e
     <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> 
   </a> 
   <a href="https://seab
+
+orn.pydata.org/" target="_blank" rel="noreferrer"> 
+    <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/> 
+  </a> 
+  <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> 
+    <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> 
+  </a> 
+</p>
+
+<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=prajwalsg&show_icons=true&locale=en&layout=compact" alt="prajwalsg" /></p>
