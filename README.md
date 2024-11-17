@@ -4,6 +4,7 @@
  
 # 💫 About Me:
 🔭 I’m currently working on some AI/ML projects<br>👯 I’m looking to collaborate on new inovative projects<br>🤝 I’m looking for help with my Tech blogs<br>🌱 I’m currently learning kubernetes<br>💬 Ask me about AI/ML , LLM's <br>📫 reach me at prajwalgaonkar6196@gmail.com<br>📄 Know about my experiences [![Resume](https://drive.google.com/file/d/1m19AKnyPPN6_U0Do9kG0dhoOCte7Hu8T/view?usp=sharing](https://drive.google.com/file/d/1m19AKnyPPN6_U0Do9kG0dhoOCte7Hu8T/view?usp=sharing)]<br>
+[![Resume](https://img.shields.io/badge/Resume)](https://instagram.com/prajwal_gaonkar__)<br><br>
 
 
 ## 🌐 Socials:
