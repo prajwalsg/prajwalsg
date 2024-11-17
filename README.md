@@ -1,7 +1,7 @@
 
 <h1 align="center" style="font-family: 'Times New Roman', Times, serif; font-weight: normal; text-align: justify;">Hi 👋, I'm Prajwal Gaonkar</h1>
 <h3 align="center" style="font-family: 'Times New Roman', Times, serif; font-weight: normal; text-align: left;">
-    A passionate fullstack developer | Tech enthusiast | Problem Solving | As a computer science engineer, my career objectives are centered around leveraging my expertise to make a meaningful impact in the technology industry. My career goal is to continuously grow as a versatile and knowledgeable software professional. I aspire to contribute to cutting-edge projects that harness data-driven insights, intelligent algorithms, and user-centric design. With a proven track record of being a team player and a fast learner, I aim to collaborate effectively with cross-functional teams, bringing innovative solutions to complex challenges. My expertise aligns seamlessly with the evolving demands of the job role, making me an enthusiastic candidate ready to embrace new opportunities in the field of computer science.
+    A passionate fullstack developer | Tech enthusiast | Problem Solving 
 </h3>
 
 - This is my project to develop a ML model to analyse the impact of music on human health using brain signals [Impact of Music on Human health](https://github.com/prajwalsg/EEG-Brain-signal-analyses-to-determine-impact-of-music.git)
