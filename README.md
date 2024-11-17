@@ -1,3 +1,5 @@
+<h1>HI IM PRAJWAL</h1>
+
 # 💫 About Me:
 🔭 I’m currently working on some AI/ML projects<br>👯 I’m looking to collaborate on new inovative projects<br>🤝 I’m looking for help with my Tech blogs<br>🌱 I’m currently learning kubernetes<br>💬 Ask me about AI/ML , LLM's <br>📫 reach me at prajwalgaonkar6196@gmail.com<br><br>
 
