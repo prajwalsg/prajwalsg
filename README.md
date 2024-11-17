@@ -1,5 +1,6 @@
-<h1>HI IM PRAJWAL</h1>
+<h1 style="text-align: center; font-family: 'Times New Roman', Times, serif;">Hi👋, I'm Prajwal</h1>
 
+# A passionate  fullstack developer | Tech enthusiast | Problem Solving | Intrested in ML
 # 💫 About Me:
 🔭 I’m currently working on some AI/ML projects<br>👯 I’m looking to collaborate on new inovative projects<br>🤝 I’m looking for help with my Tech blogs<br>🌱 I’m currently learning kubernetes<br>💬 Ask me about AI/ML , LLM's <br>📫 reach me at prajwalgaonkar6196@gmail.com<br><br>
 
