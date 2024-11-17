@@ -1,4 +1,4 @@
-<h1 style="align="center"; font-family: 'Times New Roman', Times, serif;">Hi👋, I'm Prajwal</h1>
+# <h1 style="align="center"; font-family: 'Times New Roman', Times, serif;">Hi👋, I'm Prajwal</h1>
 
  <h2 style="align="center"; font-family: 'Times New Roman', Times, serif; font-size: 11px;"> fullstack developer | Tech enthusiast | Problem Solving | Intrested in ML</h2>
  
