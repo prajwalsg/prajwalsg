@@ -146,12 +146,14 @@ class Polyline:
         first is added, forming a closed shape.
     """
 
-    def __init__(self, points: List[Point], closed: bool = False) -> None:
+    def __init__(self, points: List[Point], closed: bool = False,
+                 construction: bool = False) -> None:
         if len(points) < 2:
             raise ValueError("Polyline requires at least two points.")
         self.id: str = _next_id("PL")
         self.points: List[Point] = points
         self.closed: bool = closed
+        self.construction: bool = construction
         self.segments: List[Line] = self._build_segments()
 
     def _build_segments(self) -> List[Line]:
@@ -394,13 +396,13 @@ class Rectangle:
         """Return the width of the rectangle."""
         return abs(self.corners[1].x - self.corners[0].x)
 
-    def height_val(self) -> float:
+    def height(self) -> float:
         """Return the height of the rectangle."""
         return abs(self.corners[2].y - self.corners[0].y)
 
     def area(self) -> float:
         """Return the area of the rectangle."""
-        return self.width() * self.height_val()
+        return self.width() * self.height()
 
     def __repr__(self) -> str:
         bl = self.corners[0].as_tuple()

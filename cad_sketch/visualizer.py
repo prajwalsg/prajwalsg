@@ -185,12 +185,13 @@ def _draw_line(ax, line: Line) -> None:
 
 def _draw_polyline(ax, pl: Polyline) -> None:
     """Draw a polyline as connected segments."""
+    color, lw, ls = _color_and_style(pl.construction)
     xs = [p.x for p in pl.points]
     ys = [p.y for p in pl.points]
     if pl.closed:
         xs.append(pl.points[0].x)
         ys.append(pl.points[0].y)
-    ax.plot(xs, ys, color=_COLOR_ENTITY, linewidth=_LINEWIDTH, zorder=3)
+    ax.plot(xs, ys, color=color, linewidth=lw, linestyle=ls, zorder=3)
     # Label near start
     ax.annotate(
         pl.id,
@@ -198,7 +199,7 @@ def _draw_polyline(ax, pl: Polyline) -> None:
         textcoords="offset points",
         xytext=(2, 2),
         fontsize=6,
-        color=_COLOR_ENTITY,
+        color=color,
         zorder=4,
     )
 

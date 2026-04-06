@@ -136,22 +136,24 @@ class Sketch:
         return self._add_entity(line)
 
     def add_polyline(
-        self, coords: List[tuple], closed: bool = False
+        self, coords: List[tuple], closed: bool = False,
+        construction: bool = False,
     ) -> Polyline:
         """
         Add a :class:`~cad_sketch.geometry.Polyline` to the sketch.
 
         Parameters
         ----------
-        coords : list of (x, y) tuples
-        closed : bool — connect last point back to first
+        coords       : list of (x, y) tuples
+        closed       : bool — connect last point back to first
+        construction : bool — mark as reference geometry
 
         Returns
         -------
         Polyline
         """
         points = [self.add_point(x, y) for x, y in coords]
-        pl = Polyline(points, closed=closed)
+        pl = Polyline(points, closed=closed, construction=construction)
         # Register the internal segments' points (already registered above)
         return self._add_entity(pl)
 
@@ -466,7 +468,10 @@ class Sketch:
         else:
             for cid, con in self.constraints.items():
                 residuals = con.residuals()
-                rms = math.sqrt(sum(r * r for r in residuals) / len(residuals))
+                if residuals:
+                    rms = math.sqrt(sum(r * r for r in residuals) / len(residuals))
+                else:
+                    rms = 0.0
                 lines.append(
                     f"  {cid}: {con.description()}  (rms={rms:.3e})"
                 )
